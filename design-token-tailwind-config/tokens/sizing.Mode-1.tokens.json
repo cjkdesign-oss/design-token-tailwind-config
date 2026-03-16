@@ -1,0 +1,50 @@
+{
+  "space-1": {
+    "$type": "dimension",
+    "$value": "8px"
+  },
+  "space-2": {
+    "$type": "dimension",
+    "$value": "16px"
+  },
+  "space-3": {
+    "$type": "dimension",
+    "$value": "24px"
+  },
+  "space-4": {
+    "$type": "dimension",
+    "$value": "32px"
+  },
+  "space-5": {
+    "$type": "dimension",
+    "$value": "40px"
+  },
+  "space-6": {
+    "$type": "dimension",
+    "$value": "48px"
+  },
+  "space-7": {
+    "$type": "dimension",
+    "$value": "56px"
+  },
+  "space-8": {
+    "$type": "dimension",
+    "$value": "64px"
+  },
+  "space-9": {
+    "$type": "dimension",
+    "$value": "72px"
+  },
+  "space-10": {
+    "$type": "dimension",
+    "$value": "80px"
+  },
+  "space-11": {
+    "$type": "dimension",
+    "$value": "88px"
+  },
+  "space-12": {
+    "$type": "dimension",
+    "$value": "96px"
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "typography": {
+    "text-display-1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "96px",
+        "fontWeight": 300,
+        "letterSpacing": "-1.5px",
+        "lineHeight": "116.7%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-display-2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "60px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.5px",
+        "lineHeight": "120%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-display-3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "48px",
+        "fontWeight": 400,
+        "letterSpacing": "0px",
+        "lineHeight": "116.7%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-display-4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "34px",
+        "fontWeight": 400,
+        "letterSpacing": "0.25px",
+        "lineHeight": "123.5%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-header-1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "letterSpacing": "0px",
+        "lineHeight": "110%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-header-2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "letterSpacing": "0.15px",
+        "lineHeight": "120%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-header-3": {
+      "$type": "typography",
+      "$description": "18/125",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "letterSpacing": "0.15px",
+        "lineHeight": "125%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-body-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0.15px",
+        "lineHeight": "150%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-body-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "0.17px",
+        "lineHeight": "143%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-subtitle-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0.15px",
+        "lineHeight": "175%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-subtitle-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "letterSpacing": "0.1px",
+        "lineHeight": "157%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-label-overline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "1px",
+        "lineHeight": "266%",
+        "textTransform": "uppercase",
+        "textDecoration": "none"
+      }
+    },
+    "text-label-caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0.4px",
+        "lineHeight": "166%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "alert": {
+    "text-alert-title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "letterSpacing": "0.15px",
+        "lineHeight": "150%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-alert-body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "letterSpacing": "0.15px",
+        "lineHeight": "143%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "avatar": {
+    "text-avatar-initials": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "0.14px",
+        "lineHeight": "20px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "badge": {
+    "text-badge-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "letterSpacing": "0.14px",
+        "lineHeight": "20px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "bottomNavigation": {
+    "text-bottomNav-active": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "0.4px",
+        "lineHeight": "166%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "button": {
+    "text-button-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "letterSpacing": "0.46px",
+        "lineHeight": "24px",
+        "textTransform": "uppercase",
+        "textDecoration": "none"
+      }
+    },
+    "text-button-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "letterSpacing": "0.4px",
+        "lineHeight": "20px",
+        "textTransform": "uppercase",
+        "textDecoration": "none"
+      }
+    },
+    "text-button-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "letterSpacing": "0.46px",
+        "lineHeight": "16px",
+        "textTransform": "uppercase",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "chip": {
+    "text-chip-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "letterSpacing": "0.16px",
+        "lineHeight": "18px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "datePicker": {
+    "text-datePicker-month": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "letterSpacing": "0.15px",
+        "lineHeight": "150%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "input": {
+    "text-input-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "letterSpacing": "0.15px",
+        "lineHeight": "12px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-input-value": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "0.15px",
+        "lineHeight": "20px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-input-helper": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0.4px",
+        "lineHeight": "166%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "list": {
+    "text-list-subheader": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "letterSpacing": "0.1px",
+        "lineHeight": "48px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "menu": {
+    "text-menu-item-default": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0.15px",
+        "lineHeight": "150%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    },
+    "text-menu-item-dense": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "0.17px",
+        "lineHeight": "24px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "table": {
+    "text-table-header": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "letterSpacing": "0.17px",
+        "lineHeight": "24px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "text-tooltip-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "10px",
+        "fontWeight": 500,
+        "letterSpacing": "0px",
+        "lineHeight": "14px",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "dataGrid": {
+    "text-dataGrid-aggregation-header": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "letterSpacing": "0.15px",
+        "lineHeight": "12px",
+        "textTransform": "uppercase",
+        "textDecoration": "none"
+      }
+    }
+  },
+  "_library": {
+    "text-library-heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Roboto Mono",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "letterSpacing": "-1.5px",
+        "lineHeight": "116.7%",
+        "textTransform": "none",
+        "textDecoration": "none"
+      }
+    }
+  }
+}

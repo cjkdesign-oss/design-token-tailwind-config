@@ -1,0 +1,955 @@
+/* ============================================================
+   tokens.theme.css — PRIMARY Tailwind v4 theme
+   Generated from tokens/ directory. Do not edit manually.
+   ============================================================ */
+
+@theme {
+  /* Reset Tailwind default namespaces */
+  --color-*: initial;
+  --breakpoint-*: initial;
+  --spacing-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --text-*: initial;
+  --tracking-*: initial;
+  --font-weight-*: initial;
+
+  /* ==========================================================
+     breakpoints.Mode-1.tokens.json
+     ========================================================== */
+  --breakpoint-xs:  27.75rem;  /* 444px */
+  --breakpoint-sm:  37.5rem;   /* 600px */
+  --breakpoint-md:  56.25rem;  /* 900px */
+  --breakpoint-lg:  75rem;     /* 1200px */
+  --breakpoint-xl:  96rem;     /* 1536px */
+  --breakpoint-xxl: 119rem;    /* 1904px */
+
+  /* ==========================================================
+     sizing.Mode-1.tokens.json
+     ========================================================== */
+  --spacing-1:  0.5rem;   /* 8px */
+  --spacing-2:  1rem;     /* 16px */
+  --spacing-3:  1.5rem;   /* 24px */
+  --spacing-4:  2rem;     /* 32px */
+  --spacing-5:  2.5rem;   /* 40px */
+  --spacing-6:  3rem;     /* 48px */
+  --spacing-7:  3.5rem;   /* 56px */
+  --spacing-8:  4rem;     /* 64px */
+  --spacing-9:  4.5rem;   /* 72px */
+  --spacing-10: 5rem;     /* 80px */
+  --spacing-11: 5.5rem;   /* 88px */
+  --spacing-12: 6rem;     /* 96px */
+
+  /* ==========================================================
+     shape.Mode-1.tokens.json
+     ========================================================== */
+  --radius-none: 0px;
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-xxl:  20px;
+  --radius-3xl:  24px;
+  --radius-full: 100px;
+
+  /* ==========================================================
+     effect.styles.tokens.json — elevation shadows
+     ========================================================== */
+  --shadow-1:  0px 2px 1px -1px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f;
+  --shadow-2:  0px 3px 1px -2px #00000033, 0px 2px 2px 0px #00000024, 0px 1px 5px 0px #0000001f;
+  --shadow-3:  0px 3px 3px -2px #00000033, 0px 3px 4px 0px #00000024, 0px 1px 8px 0px #0000001f;
+  --shadow-4:  0px 2px 4px -1px #00000033, 0px 4px 5px 0px #00000024, 0px 1px 10px 0px #0000001f;
+  --shadow-5:  0px 3px 5px -1px #00000033, 0px 5px 8px 0px #00000024, 0px 1px 14px 0px #0000001f;
+  --shadow-6:  0px 3px 5px -1px #00000033, 0px 6px 10px 0px #00000024, 0px 1px 18px 0px #0000001f;
+  --shadow-7:  0px 4px 5px -2px #00000033, 0px 7px 10px 1px #00000024, 0px 2px 16px 1px #0000001f;
+  --shadow-8:  0px 5px 5px -3px #00000033, 0px 8px 10px 1px #00000024, 0px 3px 14px 2px #0000001f;
+  --shadow-9:  0px 5px 6px -3px #00000033, 0px 9px 12px 1px #00000024, 0px 3px 16px 2px #0000001f;
+  --shadow-10: 0px 6px 6px -3px #00000033, 0px 10px 14px 1px #00000024, 0px 4px 18px 3px #0000001f;
+  --shadow-11: 0px 6px 7px -4px #00000033, 0px 11px 15px 1px #00000024, 0px 4px 20px 3px #0000001f;
+  --shadow-12: 0px 7px 8px -4px #00000033, 0px 12px 17px 2px #00000024, 0px 5px 22px 4px #0000001f;
+  --shadow-13: 0px 7px 8px -4px #00000033, 0px 13px 19px 2px #00000024, 0px 5px 24px 4px #0000001f;
+  --shadow-14: 0px 7px 9px -4px #00000033, 0px 14px 21px 2px #00000024, 0px 5px 26px 4px #0000001f;
+  --shadow-15: 0px 8px 9px -5px #00000033, 0px 15px 22px 2px #00000024, 0px 6px 28px 5px #0000001f;
+  --shadow-16: 0px 8px 10px -5px #00000033, 0px 16px 24px 2px #00000024, 0px 6px 30px 5px #0000001f;
+  --shadow-17: 0px 8px 11px -5px #00000033, 0px 17px 26px 2px #00000024, 0px 6px 32px 5px #0000001f;
+  --shadow-18: 0px 9px 11px -5px #00000033, 0px 18px 28px 2px #00000024, 0px 7px 34px 6px #0000001f;
+  --shadow-19: 0px 9px 12px -6px #00000033, 0px 19px 29px 2px #00000024, 0px 7px 36px 6px #0000001f;
+  --shadow-20: 0px 10px 13px -6px #00000033, 0px 20px 31px 3px #00000024, 0px 8px 38px 7px #0000001f;
+  --shadow-21: 0px 10px 13px -6px #00000033, 0px 21px 33px 3px #00000024, 0px 8px 40px 7px #0000001f;
+  --shadow-22: 0px 10px 14px -6px #00000033, 0px 22px 35px 3px #00000024, 0px 8px 42px 7px #0000001f;
+  --shadow-23: 0px 11px 14px -7px #00000033, 0px 23px 36px 3px #00000024, 0px 9px 44px 8px #0000001f;
+  --shadow-24: 0px 11px 15px -7px #00000033, 0px 24px 38px 3px #00000024, 0px 9px 46px 8px #0000001f;
+
+  /* ==========================================================
+     grid.styles.tokens.json — Figma layout grid metadata
+     (no direct CSS custom property mapping; included for reference)
+     TODO: map gutterSize/offset/count to container/gap tokens if needed
+     breakpoint-xs: 12 cols, 8px gutter, 8px offset (max 444px)
+     breakpoint-sm: 12 cols, 8px gutter, 8px offset (max 600px)
+     breakpoint-md: 12 cols, 8px gutter, 8px offset (max 900px)
+     breakpoint-lg: 12 cols, 8px gutter, 8px offset (max 1200px)
+     breakpoint-xl: 12 cols, 16px gutter, 24px offset
+     breakpoint-xxl: 12 cols, 16px gutter, 16px offset
+     ========================================================== */
+
+  /* ==========================================================
+     colors.Mode-1.tokens.json — base color palette
+     ========================================================== */
+
+  /* amber */
+  --color-amber-50:   #fff8e1;
+  --color-amber-100:  #ffecb3;
+  --color-amber-200:  #ffe082;
+  --color-amber-300:  #ffd54f;
+  --color-amber-400:  #ffca28;
+  --color-amber-500:  #ffc107;
+  --color-amber-600:  #ffb300;
+  --color-amber-700:  #ffa000;
+  --color-amber-800:  #ff8f00;
+  --color-amber-900:  #ff6f00;
+  --color-amber-a100: #ffe57f;
+  --color-amber-a200: #ffd740;
+  --color-amber-a400: #ffc400;
+  --color-amber-a700: #ffab00;
+
+  /* blue */
+  --color-blue-50:   #d2e2ed;
+  --color-blue-100:  #a5c6da;
+  --color-blue-200:  #77aac8;
+  --color-blue-300:  #468db5;
+  --color-blue-400:  #026ea1;
+  --color-blue-500:  #215671;
+  --color-blue-600:  #1b4960;
+  --color-blue-700:  #123b50;
+  --color-blue-800:  #0e2c3b;
+  --color-blue-900:  #0c202b;
+  --color-blue-a100: #82b1ff;
+  --color-blue-a200: #448aff;
+  --color-blue-a400: #2979ff;
+  --color-blue-a700: #2962ff;
+
+  /* blue-grey */
+  --color-blue-grey-50:   #eceff1;
+  --color-blue-grey-100:  #cfd8dc;
+  --color-blue-grey-200:  #b0bec5;
+  --color-blue-grey-300:  #90a4ae;
+  --color-blue-grey-400:  #78909c;
+  --color-blue-grey-500:  #607d8b;
+  --color-blue-grey-600:  #546e7a;
+  --color-blue-grey-700:  #455a64;
+  --color-blue-grey-800:  #37474f;
+  --color-blue-grey-900:  #263238;
+  --color-blue-grey-a100: #cfd8dc;
+  --color-blue-grey-a200: #b0bec5;
+  --color-blue-grey-a400: #78909c;
+  --color-blue-grey-a700: #455a64;
+
+  /* cyan */
+  --color-cyan-50:   #e0f7fa;
+  --color-cyan-100:  #b2ebf2;
+  --color-cyan-200:  #80deea;
+  --color-cyan-300:  #4dd0e1;
+  --color-cyan-400:  #26c6da;
+  --color-cyan-500:  #00bcd4;
+  --color-cyan-600:  #00acc1;
+  --color-cyan-700:  #0097a7;
+  --color-cyan-800:  #00838f;
+  --color-cyan-900:  #006064;
+  --color-cyan-a100: #84ffff;
+  --color-cyan-a200: #18ffff;
+  --color-cyan-a400: #00e5ff;
+  --color-cyan-a700: #00b8d4;
+
+  /* deep-orange */
+  --color-deep-orange-50:   #fbe9e7;
+  --color-deep-orange-100:  #ffccbc;
+  --color-deep-orange-200:  #ffab91;
+  --color-deep-orange-300:  #ff8a65;
+  --color-deep-orange-400:  #ff7043;
+  --color-deep-orange-500:  #ff5722;
+  --color-deep-orange-600:  #f4511e;
+  --color-deep-orange-700:  #e64a19;
+  --color-deep-orange-800:  #d84315;
+  --color-deep-orange-900:  #bf360c;
+  --color-deep-orange-a100: #ff9e80;
+  --color-deep-orange-a200: #ff6e40;
+  --color-deep-orange-a400: #ff3d00;
+  --color-deep-orange-a700: #dd2c00;
+
+  /* deep-purple */
+  --color-deep-purple-50:   #ede7f6;
+  --color-deep-purple-100:  #d1c4e9;
+  --color-deep-purple-200:  #b39ddb;
+  --color-deep-purple-300:  #9575cd;
+  --color-deep-purple-400:  #7e57c2;
+  --color-deep-purple-500:  #673ab7;
+  --color-deep-purple-600:  #5e35b1;
+  --color-deep-purple-700:  #512da8;
+  --color-deep-purple-800:  #4527a0;
+  --color-deep-purple-900:  #311b92;
+  --color-deep-purple-a100: #b388ff;
+  --color-deep-purple-a200: #7c4dff;
+  --color-deep-purple-a400: #651fff;
+  --color-deep-purple-a700: #6200ea;
+
+  /* green */
+  --color-green-50:   #bfdfd8;
+  --color-green-100:  #a9d5cb;
+  --color-green-200:  #94cabe;
+  --color-green-300:  #7ebfb0;
+  --color-green-400:  #69b5a3;
+  --color-green-500:  #53aa96;
+  --color-green-600:  #3ea089;
+  --color-green-700:  #28957c;
+  --color-green-800:  #248670;
+  --color-green-900:  #1c6857;
+  --color-green-a100: #a9d5cb;
+  --color-green-a200: #94cabe;
+  --color-green-a400: #69b5a3;
+  --color-green-a700: #28957c;
+
+  /* grey */
+  --color-grey-50:   #fafafa;
+  --color-grey-100:  #f5f5f5;
+  --color-grey-200:  #eeeeee;
+  --color-grey-300:  #e0e0e0;
+  --color-grey-400:  #bdbdbd;
+  --color-grey-500:  #9e9e9e;
+  --color-grey-600:  #757575;
+  --color-grey-700:  #616161;
+  --color-grey-800:  #424242;
+  --color-grey-900:  #212121;
+  --color-grey-a100: #f5f5f5;
+  --color-grey-a200: #eeeeee;
+  --color-grey-a400: #bdbdbd;
+  --color-grey-a700: #616161;
+
+  /* indigo */
+  --color-indigo-50:   #e8eaf6;
+  --color-indigo-100:  #c5cae9;
+  --color-indigo-200:  #9fa8da;
+  --color-indigo-300:  #7986cb;
+  --color-indigo-400:  #5c6bc0;
+  --color-indigo-500:  #3f51b5;
+  --color-indigo-600:  #3949ab;
+  --color-indigo-700:  #303f9f;
+  --color-indigo-800:  #283593;
+  --color-indigo-900:  #1a237e;
+  --color-indigo-a100: #8c9eff;
+  --color-indigo-a200: #536dfe;
+  --color-indigo-a400: #3d5afe;
+  --color-indigo-a700: #304ffe;
+
+  /* light-blue */
+  --color-light-blue-50:   #c8dde9;
+  --color-light-blue-100:  #b5d1e1;
+  --color-light-blue-200:  #a3c6da;
+  --color-light-blue-300:  #90bbd3;
+  --color-light-blue-400:  #7eafcb;
+  --color-light-blue-500:  #6ba4c4;
+  --color-light-blue-600:  #5998bc;
+  --color-light-blue-700:  #468db5;
+  --color-light-blue-800:  #3f7fa3;
+  --color-light-blue-900:  #31637f;
+  --color-light-blue-a100: #b5d1e1;
+  --color-light-blue-a200: #a3c6da;
+  --color-light-blue-a400: #7eafcb;
+  --color-light-blue-a700: #468db5;
+
+  /* light-green */
+  --color-light-green-50:   #f1f8e9;
+  --color-light-green-100:  #dcedc8;
+  --color-light-green-200:  #c5e1a5;
+  --color-light-green-300:  #aed581;
+  --color-light-green-400:  #8bc34a;
+  --color-light-green-500:  #8bc34a;
+  --color-light-green-600:  #7cb342;
+  --color-light-green-700:  #689f38;
+  --color-light-green-800:  #558b2f;
+  --color-light-green-900:  #33691e;
+  --color-light-green-a100: #ccff90;
+  --color-light-green-a200: #b2ff59;
+  --color-light-green-a400: #76ff03;
+  --color-light-green-a700: #64dd17;
+
+  /* lime */
+  --color-lime-50:   #f9fbe7;
+  --color-lime-100:  #f0f4c3;
+  --color-lime-200:  #e6ee9c;
+  --color-lime-300:  #dce775;
+  --color-lime-400:  #d4e157;
+  --color-lime-500:  #cddc39;
+  --color-lime-600:  #c0ca33;
+  --color-lime-700:  #afb42b;
+  --color-lime-800:  #9e9d24;
+  --color-lime-900:  #827717;
+  --color-lime-a100: #f4ff81;
+  --color-lime-a200: #eeff41;
+  --color-lime-a400: #c6ff00;
+  --color-lime-a700: #aeea00;
+
+  /* orange */
+  --color-orange-50:   #fce2be;
+  --color-orange-100:  #fbd8a8;
+  --color-orange-200:  #face92;
+  --color-orange-300:  #f9c47c;
+  --color-orange-400:  #f8ba66;
+  --color-orange-500:  #f7b151;
+  --color-orange-600:  #f6a73b;
+  --color-orange-700:  #ff9800;
+  --color-orange-800:  #ac6e1a;
+  --color-orange-900:  #7b4f13;
+  --color-orange-a100: #fbd8a8;
+  --color-orange-a200: #face92;
+  --color-orange-a400: #f8ba66;
+  --color-orange-a700: #f59d25;
+
+  /* pink */
+  --color-pink-50:   #fce4ec;
+  --color-pink-100:  #f8bbd0;
+  --color-pink-200:  #f48fb1;
+  --color-pink-300:  #f06292;
+  --color-pink-400:  #ec407a;
+  --color-pink-500:  #e91e63;
+  --color-pink-600:  #d81b60;
+  --color-pink-700:  #c2185b;
+  --color-pink-800:  #ad1457;
+  --color-pink-900:  #880e4f;
+  --color-pink-a100: #ff80ab;
+  --color-pink-a200: #ff4081;
+  --color-pink-a400: #f50057;
+  --color-pink-a700: #c51162;
+
+  /* purple */
+  --color-purple-50:   #f3e5f5;
+  --color-purple-100:  #e1bee7;
+  --color-purple-200:  #ce93d8;
+  --color-purple-300:  #ba68c8;
+  --color-purple-400:  #ab47bc;
+  --color-purple-500:  #9c27b0;
+  --color-purple-600:  #8e24aa;
+  --color-purple-700:  #7b1fa2;
+  --color-purple-800:  #6a1b9a;
+  --color-purple-900:  #4a148c;
+  --color-purple-a100: #ea80fc;
+  --color-purple-a200: #e040fb;
+  --color-purple-a400: #d500f9;
+  --color-purple-a700: #aa00ff;
+
+  /* red */
+  --color-red-50:   #efccd2;
+  --color-red-100:  #df99a6;
+  --color-red-200:  #d88090;
+  --color-red-300:  #d06679;
+  --color-red-400:  #c84d63;
+  --color-red-500:  #c0334d;
+  --color-red-600:  #b81a36;
+  --color-red-700:  #b00020;
+  --color-red-800:  #8d001a;
+  --color-red-900:  #6a0013;
+  --color-red-a100: #c84d63;
+  --color-red-a200: #c0334d;
+  --color-red-a400: #b81a36;
+  --color-red-a700: #b00020;
+
+  /* teal */
+  --color-teal-50:   #e0f2f1;
+  --color-teal-100:  #b2dfdb;
+  --color-teal-200:  #80cbc4;
+  --color-teal-300:  #4db6ac;
+  --color-teal-400:  #26a69a;
+  --color-teal-500:  #009688;
+  --color-teal-600:  #00897b;
+  --color-teal-700:  #00796b;
+  --color-teal-800:  #00695c;
+  --color-teal-900:  #004d40;
+  --color-teal-a100: #a7ffeb;
+  --color-teal-a200: #64ffda;
+  --color-teal-a400: #1de9b6;
+  --color-teal-a700: #00bfa5;
+
+  /* yellow */
+  --color-yellow-50:   #fffde7;
+  --color-yellow-100:  #fff9c4;
+  --color-yellow-200:  #fff59d;
+  --color-yellow-300:  #fff176;
+  --color-yellow-400:  #ffee58;
+  --color-yellow-500:  #ffeb3b;
+  --color-yellow-600:  #fdd835;
+  --color-yellow-700:  #fbc02d;
+  --color-yellow-800:  #f9a825;
+  --color-yellow-900:  #f57f17;
+  --color-yellow-a100: #ffff8d;
+  --color-yellow-a200: #ffff00;
+  --color-yellow-a400: #ffea00;
+  --color-yellow-a700: #ffd600;
+
+  /* ==========================================================
+     palette.Light.tokens.json — light mode semantic colors
+     (References resolved to hex values)
+     ========================================================== */
+
+  /* text */
+  --color-text-primary:      #000000de;
+  --color-text-secondary:    #00000099;
+  --color-text-disabled:     #00000061;
+  --color-text-hover:        #0000000a;
+  --color-text-selected:     #00000014;
+  --color-text-focus:        #0000001f;
+  --color-text-focus-visible: #0000004d;
+
+  /* primary */
+  --color-primary-main:             #123b50; /* blue-700 */
+  --color-primary-dark:             #1b4960; /* blue-600 */
+  --color-primary-light:            #026ea1; /* blue-400 */
+  --color-primary-contrast:         #ffffff;
+  --color-primary-hover:            #026ea10a;
+  --color-primary-selected:         #026ea114;
+  --color-primary-focus:            #026ea11f;
+  --color-primary-focus-visible:    #026ea14d;
+  --color-primary-outlined-border:  #026ea180;
+
+  /* secondary */
+  --color-secondary-main:             #9c27b0; /* purple-500 */
+  --color-secondary-dark:             #7b1fa2; /* purple-700 */
+  --color-secondary-light:            #ba68c8; /* purple-300 */
+  --color-secondary-contrast:         #ffffff;
+  --color-secondary-hover:            #9c27b00a;
+  --color-secondary-selected:         #9c27b014;
+  --color-secondary-focus:            #9c27b01f;
+  --color-secondary-focus-visible:    #9c27b04d;
+  --color-secondary-outlined-border:  #9c27b080;
+
+  /* action */
+  --color-action-active:      #0000008f;
+  --color-action-hover:       #0000000a;
+  --color-action-selected:    #00000014;
+  --color-action-focus:       #0000001f;
+  --color-action-disabled:    #00000061;
+  --color-action-disabled-bg: #0000001f;
+
+  /* error */
+  --color-error-main:             #b00020; /* red-700 */
+  --color-error-dark:             #8d001a; /* red-800 */
+  --color-error-light:            #c84d63; /* red-400 */
+  --color-error-contrast:         #ffffff;
+  --color-error-hover:            #d32f2f0a;
+  --color-error-selected:         #d32f2f14;
+  --color-error-focus-visible:    #d32f2f4d;
+  --color-error-outlined-border:  #d32f2f80;
+
+  /* warning */
+  --color-warning-main:             #ffa000; /* amber-700 */
+  --color-warning-dark:             #ff6f00; /* amber-900 */
+  --color-warning-light:            #ffc107; /* amber-500 */
+  --color-warning-contrast:         #ffffff;
+  --color-warning-hover:            #ef6c000a;
+  --color-warning-selected:         #ef6c0014;
+  --color-warning-focus-visible:    #ef6c004d;
+  --color-warning-outlined-border:  #ef6c0080;
+
+  /* info */
+  --color-info-main:             #468db5; /* light-blue-700 */
+  --color-info-dark:             #31637f; /* light-blue-900 */
+  --color-info-light:            #6ba4c4; /* light-blue-500 */
+  --color-info-contrast:         #ffffff;
+  --color-info-hover:            #0288d10a;
+  --color-info-selected:         #0288d114;
+  --color-info-focus-visible:    #0288d14d;
+  --color-info-outlined-border:  #0288d180;
+
+  /* success */
+  --color-success-main:             #248670; /* green-800 */
+  --color-success-dark:             #1c6857; /* green-900 */
+  --color-success-light:            #53aa96; /* green-500 */
+  --color-success-contrast:         #ffffff;
+  --color-success-hover:            #2e7d320a;
+  --color-success-selected:         #2e7d3214;
+  --color-success-focus-visible:    #2e7d324d;
+  --color-success-outlined-border:  #2e7d3280;
+
+  /* common */
+  --color-common-black:                 #000000;
+  --color-common-black-hover:           #0000000a;
+  --color-common-black-selected:        #00000014;
+  --color-common-black-focus:           #0000001f;
+  --color-common-black-focus-visible:   #0000004d;
+  --color-common-black-outlined-border: #00000080;
+  --color-common-white:                 #ffffff;
+  --color-common-white-hover:           #ffffff0a;
+  --color-common-white-selected:        #ffffff14;
+  --color-common-white-focus:           #ffffff1f;
+  --color-common-white-focus-visible:   #ffffff4d;
+  --color-common-white-outlined-border: #ffffff80;
+
+  /* background */
+  --color-bg-body:       #ffffff;
+  --color-bg-surface-0:  #ffffff;
+  --color-bg-surface-1:  #ffffff;
+  --color-bg-surface-2:  #ffffff;
+  --color-bg-surface-3:  #ffffff;
+  --color-bg-surface-4:  #ffffff;
+  --color-bg-surface-5:  #ffffff;
+  --color-bg-surface-6:  #ffffff;
+  --color-bg-surface-7:  #ffffff;
+  --color-bg-surface-8:  #ffffff;
+  --color-bg-surface-9:  #ffffff;
+  --color-bg-surface-10: #ffffff;
+  --color-bg-surface-11: #ffffff;
+  --color-bg-surface-12: #ffffff;
+  --color-bg-surface-13: #ffffff;
+  --color-bg-surface-14: #ffffff;
+  --color-bg-surface-15: #ffffff;
+  --color-bg-surface-16: #ffffff;
+  --color-bg-surface-17: #ffffff;
+  --color-bg-surface-18: #ffffff;
+  --color-bg-surface-19: #ffffff;
+  --color-bg-surface-20: #ffffff;
+  --color-bg-surface-21: #ffffff;
+  --color-bg-surface-22: #ffffff;
+  --color-bg-surface-23: #ffffff;
+  --color-bg-surface-24: #ffffff;
+
+  /* border */
+  --color-border-divider: #0000001f;
+
+  /* components — switch */
+  --color-component-switch-slide-track-fill:  #000000;
+  --color-component-switch-knob-fill-enabled:  #fafafa; /* grey-50 */
+  --color-component-switch-knob-fill-disabled: #f5f5f5; /* grey-100 */
+
+  /* components — avatar */
+  --color-component-avatar-fill: #bdbdbd; /* grey-400 */
+
+  /* components — input / standard */
+  --color-component-input-standard-enabled-border: #0000006b;
+  --color-component-input-standard-hover-border:   #000000;
+
+  /* components — input / filled */
+  --color-component-input-filled-enabled-fill: #0000000f;
+  --color-component-input-filled-hover-fill:   #00000017;
+
+  /* components — input / outlined */
+  --color-component-input-outlined-enabled-border: #0000003b;
+  --color-component-input-outlined-hover-border:   #000000;
+
+  /* components — rating */
+  --color-component-rating-enabled-border: #0000003b;
+  --color-component-rating-active-fill:    #ffb400;
+
+  /* components — snackbar */
+  --color-component-snackbar-fill: #323232;
+
+  /* components — stepper */
+  --color-component-stepper-connector: #bdbdbd; /* grey-400 */
+
+  /* components — app bar */
+  --color-component-appbar-default-fill: #f5f5f5; /* grey-100 */
+
+  /* components — chip */
+  --color-component-chip-default-enabled-border: #bdbdbd; /* grey-400 */
+  --color-component-chip-default-close-fill:     #000000;
+  --color-component-chip-default-hover-fill:     #0000001f;
+  --color-component-chip-default-focus-fill:     #00000033;
+
+  /* components — backdrop */
+  --color-component-backdrop-fill: #00000080;
+
+  /* components — alert */
+  --color-component-alert-error-text:   #b00020;  /* red-700 */
+  --color-component-alert-error-bg:     #fdeded;
+  --color-component-alert-warning-bg:   #fff4e5;
+  --color-component-alert-warning-text: #ff6f00;  /* amber-900 */
+  --color-component-alert-info-text:    #123b50;  /* blue-700 */
+  --color-component-alert-info-bg:      #e5f6fd;
+  --color-component-alert-success-text: #248670;  /* green-800 */
+  --color-component-alert-success-bg:   #edf7ed;
+
+  /* components — breadcrumbs */
+  --color-component-breadcrumbs-collapse-fill: #f5f5f5; /* grey-100 */
+
+  /* components — tooltip */
+  --color-component-tooltip-fill: #616161e5;
+
+  /* elevation color */
+  --color-elevation-outlined-border: #e0e0e0;
+
+  /* native */
+  --color-native-scrollbar-bg: #eeeeee; /* grey-200 */
+
+  /* ==========================================================
+     text.styles.tokens.json — typography
+     --text-*           : font-size (px → rem)
+     --text-*--line-height : line-height (% → decimal; px → unitless ratio)
+     --tracking-*       : letter-spacing (keep px)
+     --font-weight-*    : font-weight
+     ========================================================== */
+
+  /* Core scale (inside "typography" wrapper) */
+  --text-display-1: 6rem;           /* 96px */
+  --text-display-1--line-height: 1.167;     /* 116.7% */
+  --tracking-display-1: -1.5px;
+  --font-weight-display-1: 300;
+
+  --text-display-2: 3.75rem;        /* 60px */
+  --text-display-2--line-height: 1.2;       /* 120% */
+  --tracking-display-2: -0.5px;
+  --font-weight-display-2: 300;
+
+  --text-display-3: 3rem;           /* 48px */
+  --text-display-3--line-height: 1.167;     /* 116.7% */
+  --tracking-display-3: 0px;
+  --font-weight-display-3: 400;
+
+  --text-display-4: 2.125rem;       /* 34px */
+  --text-display-4--line-height: 1.235;     /* 123.5% */
+  --tracking-display-4: 0.25px;
+  --font-weight-display-4: 400;
+
+  --text-header-1: 1.5rem;          /* 24px */
+  --text-header-1--line-height: 1.1;        /* 110% */
+  --tracking-header-1: 0px;
+  --font-weight-header-1: 400;
+
+  --text-header-2: 1.25rem;         /* 20px */
+  --text-header-2--line-height: 1.2;        /* 120% */
+  --tracking-header-2: 0.15px;
+  --font-weight-header-2: 500;
+
+  --text-header-3: 1.125rem;        /* 18px */
+  --text-header-3--line-height: 1.25;       /* 125% */
+  --tracking-header-3: 0.15px;
+  --font-weight-header-3: 600;
+
+  --text-body-lg: 1rem;             /* 16px */
+  --text-body-lg--line-height: 1.5;         /* 150% */
+  --tracking-body-lg: 0.15px;
+  --font-weight-body-lg: 400;
+
+  --text-body-md: 0.875rem;         /* 14px */
+  --text-body-md--line-height: 1.43;        /* 143% */
+  --tracking-body-md: 0.17px;
+  --font-weight-body-md: 400;
+
+  --text-subtitle-lg: 1rem;         /* 16px */
+  --text-subtitle-lg--line-height: 1.75;    /* 175% */
+  --tracking-subtitle-lg: 0.15px;
+  --font-weight-subtitle-lg: 400;
+
+  --text-subtitle-md: 0.875rem;     /* 14px */
+  --text-subtitle-md--line-height: 1.57;    /* 157% */
+  --tracking-subtitle-md: 0.1px;
+  --font-weight-subtitle-md: 500;
+
+  --text-label-overline: 0.75rem;   /* 12px */
+  --text-label-overline--line-height: 2.66; /* 266% */
+  --tracking-label-overline: 1px;
+  --font-weight-label-overline: 400;
+
+  --text-label-caption: 0.75rem;    /* 12px */
+  --text-label-caption--line-height: 1.66;  /* 166% */
+  --tracking-label-caption: 0.4px;
+  --font-weight-label-caption: 400;
+
+  /* Component tokens */
+  --text-alert-title: 0.875rem;     /* 14px */
+  --text-alert-title--line-height: 1.5;     /* 150% */
+  --tracking-alert-title: 0.15px;
+  --font-weight-alert-title: 500;
+
+  --text-alert-body: 0.875rem;      /* 14px */
+  --text-alert-body--line-height: 1.43;     /* 143% */
+  --tracking-alert-body: 0.15px;
+  --font-weight-alert-body: 500;
+
+  --text-avatar-initials: 1.25rem;  /* 20px */
+  --text-avatar-initials--line-height: 1;   /* 20px / 20px */
+  --tracking-avatar-initials: 0.14px;
+  --font-weight-avatar-initials: 400;
+
+  --text-badge-label: 0.75rem;      /* 12px */
+  --text-badge-label--line-height: 1.667;   /* 20px / 12px */
+  --tracking-badge-label: 0.14px;
+  --font-weight-badge-label: 500;
+
+  --text-bottom-nav-active: 0.875rem; /* 14px — bottomNav → bottom-nav */
+  --text-bottom-nav-active--line-height: 1.66; /* 166% */
+  --tracking-bottom-nav-active: 0.4px;
+  --font-weight-bottom-nav-active: 400;
+
+  --text-button-lg: 0.9375rem;      /* 15px */
+  --text-button-lg--line-height: 1.6; /* 24px / 15px */
+  --tracking-button-lg: 0.46px;
+  --font-weight-button-lg: 500;
+
+  --text-button-md: 0.875rem;       /* 14px */
+  --text-button-md--line-height: 1.429; /* 20px / 14px */
+  --tracking-button-md: 0.4px;
+  --font-weight-button-md: 500;
+
+  --text-button-sm: 0.8125rem;      /* 13px */
+  --text-button-sm--line-height: 1.231; /* 16px / 13px */
+  --tracking-button-sm: 0.46px;
+  --font-weight-button-sm: 500;
+
+  --text-chip-label: 0.8125rem;     /* 13px */
+  --text-chip-label--line-height: 1.385; /* 18px / 13px */
+  --tracking-chip-label: 0.16px;
+  --font-weight-chip-label: 400;
+
+  --text-date-picker-month: 1rem;   /* 16px — datePicker → date-picker */
+  --text-date-picker-month--line-height: 1.5; /* 150% */
+  --tracking-date-picker-month: 0.15px;
+  --font-weight-date-picker-month: 500;
+
+  --text-input-label: 0.75rem;      /* 12px */
+  --text-input-label--line-height: 1; /* 12px / 12px */
+  --tracking-input-label: 0.15px;
+  --font-weight-input-label: 600;
+
+  --text-input-value: 0.875rem;     /* 14px */
+  --text-input-value--line-height: 1.429; /* 20px / 14px */
+  --tracking-input-value: 0.15px;
+  --font-weight-input-value: 400;
+
+  --text-input-helper: 0.75rem;     /* 12px */
+  --text-input-helper--line-height: 1.66; /* 166% */
+  --tracking-input-helper: 0.4px;
+  --font-weight-input-helper: 400;
+
+  --text-list-subheader: 0.875rem;  /* 14px */
+  --text-list-subheader--line-height: 3.429; /* 48px / 14px */
+  --tracking-list-subheader: 0.1px;
+  --font-weight-list-subheader: 500;
+
+  --text-menu-item-default: 1rem;   /* 16px — item-default */
+  --text-menu-item-default--line-height: 1.5; /* 150% */
+  --tracking-menu-item-default: 0.15px;
+  --font-weight-menu-item-default: 400;
+
+  --text-menu-item-dense: 0.875rem; /* 14px — item-dense */
+  --text-menu-item-dense--line-height: 1.714; /* 24px / 14px */
+  --tracking-menu-item-dense: 0.17px;
+  --font-weight-menu-item-dense: 400;
+
+  --text-table-header: 0.875rem;    /* 14px */
+  --text-table-header--line-height: 1.714; /* 24px / 14px */
+  --tracking-table-header: 0.17px;
+  --font-weight-table-header: 700;
+
+  --text-tooltip-label: 0.625rem;   /* 10px */
+  --text-tooltip-label--line-height: 1.4; /* 14px / 10px */
+  --tracking-tooltip-label: 0px;
+  --font-weight-tooltip-label: 500;
+
+  --text-data-grid-aggregation-header: 0.75rem; /* 12px — dataGrid → data-grid */
+  --text-data-grid-aggregation-header--line-height: 1; /* 12px / 12px */
+  --tracking-data-grid-aggregation-header: 0.15px;
+  --font-weight-data-grid-aggregation-header: 500;
+
+  /* TODO: text-library-heading is an internal library token (Roboto Mono, 64px).
+     Include only if needed for consumer projects. */
+  --text-library-heading: 4rem;     /* 64px — _library group */
+  --text-library-heading--line-height: 1.167; /* 116.7% */
+  --tracking-library-heading: -1.5px;
+  --font-weight-library-heading: 500;
+}
+
+/* ==========================================================
+   palette.Dark.tokens.json — dark mode semantic colors
+   (References resolved to hex values)
+   ========================================================== */
+@layer theme {
+  :root,
+  :host {
+    &.dark {
+      /* text */
+      --color-text-primary:       #ffffff;
+      --color-text-secondary:     #ffffffb2;
+      --color-text-disabled:      #ffffff61;
+      --color-text-hover:         #ffffff14;
+      --color-text-selected:      #ffffff29;
+      --color-text-focus:         #ffffff1f;
+      --color-text-focus-visible: #ffffff4d;
+
+      /* primary */
+      --color-primary-main:             #026ea1; /* blue-400 */
+      --color-primary-dark:             #468db5; /* blue-300 */
+      --color-primary-light:            #d2e2ed; /* blue-50 */
+      --color-primary-contrast:         #000000de;
+      --color-primary-hover:            #90caf914;
+      --color-primary-selected:         #90caf929;
+      --color-primary-focus:            #90caf91f;
+      --color-primary-focus-visible:    #90caf94d;
+      --color-primary-outlined-border:  #90caf980;
+
+      /* secondary */
+      --color-secondary-main:             #ce93d8; /* purple-200 */
+      --color-secondary-dark:             #ab47bc; /* purple-400 */
+      --color-secondary-light:            #f3e5f5; /* purple-50 */
+      --color-secondary-contrast:         #000000de;
+      --color-secondary-hover:            #ce93d814;
+      --color-secondary-selected:         #ce93d829;
+      --color-secondary-focus:            #ce93d81f;
+      --color-secondary-focus-visible:    #ce93d84d;
+      --color-secondary-outlined-border:  #ce93d880;
+
+      /* action */
+      --color-action-active:      #ffffff8f;
+      --color-action-hover:       #ffffff14;
+      --color-action-selected:    #ffffff29;
+      --color-action-focus:       #ffffff1f;
+      --color-action-disabled:    #ffffff61;
+      --color-action-disabled-bg: #ffffff1f;
+
+      /* error */
+      --color-error-main:             #c0334d; /* red-500 */
+      --color-error-dark:             #b00020; /* red-700 */
+      --color-error-light:            #d06679; /* red-300 */
+      --color-error-contrast:         #ffffff;
+      --color-error-hover:            #f4433614;
+      --color-error-selected:         #f4433629;
+      --color-error-focus-visible:    #f443364d;
+      --color-error-outlined-border:  #f4433680;
+
+      /* warning */
+      --color-warning-main:             #f8ba66; /* orange-400 */
+      --color-warning-dark:             #ff9800; /* orange-700 */
+      --color-warning-light:            #f9c47c; /* orange-300 */
+      --color-warning-contrast:         #000000de;
+      --color-warning-hover:            #ffa72614;
+      --color-warning-selected:         #ffa72629;
+      --color-warning-focus-visible:    #ffa7264d;
+      --color-warning-outlined-border:  #ffa72680;
+
+      /* info */
+      --color-info-main:             #7eafcb; /* light-blue-400 */
+      --color-info-dark:             #468db5; /* light-blue-700 */
+      --color-info-light:            #90bbd3; /* light-blue-300 */
+      --color-info-contrast:         #000000de;
+      --color-info-hover:            #29b6f614;
+      --color-info-selected:         #29b6f629;
+      --color-info-focus-visible:    #29b6f64d;
+      --color-info-outlined-border:  #29b6f680;
+
+      /* success */
+      --color-success-main:             #69b5a3; /* green-400 */
+      --color-success-dark:             #28957c; /* green-700 */
+      --color-success-light:            #7ebfb0; /* green-300 */
+      --color-success-contrast:         #000000de;
+      --color-success-hover:            #66bb6a14;
+      --color-success-selected:         #66bb6a29;
+      --color-success-focus-visible:    #66bb6a4d;
+      --color-success-outlined-border:  #66bb6a80;
+
+      /* common */
+      --color-common-black:                 #000000;
+      --color-common-black-hover:           #00000014;
+      --color-common-black-selected:        #00000029;
+      --color-common-black-focus:           #0000001f;
+      --color-common-black-focus-visible:   #0000004d;
+      --color-common-black-outlined-border: #00000080;
+      --color-common-white:                 #ffffff;
+      --color-common-white-hover:           #ffffff14;
+      --color-common-white-selected:        #ffffff29;
+      --color-common-white-focus:           #ffffff1f;
+      --color-common-white-focus-visible:   #ffffff4d;
+      --color-common-white-outlined-border: #ffffff80;
+
+      /* background */
+      --color-bg-body:       #121212;
+      --color-bg-surface-0:  #121212;
+      --color-bg-surface-1:  #1e1e1e;
+      --color-bg-surface-2:  #232323;
+      --color-bg-surface-3:  #252525;
+      --color-bg-surface-4:  #272727;
+      --color-bg-surface-5:  #2a2a2a;
+      --color-bg-surface-6:  #2c2c2c;
+      --color-bg-surface-7:  #2c2c2c;
+      --color-bg-surface-8:  #2e2e2e;
+      --color-bg-surface-9:  #2e2e2e;
+      --color-bg-surface-10: #313131;
+      --color-bg-surface-11: #313131;
+      --color-bg-surface-12: #333333;
+      --color-bg-surface-13: #333333;
+      --color-bg-surface-14: #333333;
+      --color-bg-surface-15: #333333;
+      --color-bg-surface-16: #363636;
+      --color-bg-surface-17: #363636;
+      --color-bg-surface-18: #363636;
+      --color-bg-surface-19: #363636;
+      --color-bg-surface-20: #383838;
+      --color-bg-surface-21: #383838;
+      --color-bg-surface-22: #383838;
+      --color-bg-surface-23: #383838;
+      --color-bg-surface-24: #383838;
+
+      /* border */
+      --color-border-divider: #ffffff1f;
+
+      /* components — switch */
+      --color-component-switch-slide-track-fill:   #ffffff61;
+      --color-component-switch-knob-fill-enabled:  #e0e0e0; /* grey-300 */
+      --color-component-switch-knob-fill-disabled: #757575; /* grey-600 */
+
+      /* components — avatar */
+      --color-component-avatar-fill: #757575; /* grey-600 */
+
+      /* components — input / standard */
+      --color-component-input-standard-enabled-border: #ffffff6b;
+      --color-component-input-standard-hover-border:   #ffffff;
+
+      /* components — input / filled */
+      --color-component-input-filled-enabled-fill: #ffffff17;
+      --color-component-input-filled-hover-fill:   #ffffff1f;
+
+      /* components — input / outlined */
+      --color-component-input-outlined-enabled-border: #ffffff3b;
+      --color-component-input-outlined-hover-border:   #ffffff;
+
+      /* components — rating */
+      --color-component-rating-enabled-border: #ffffff3b;
+      --color-component-rating-active-fill:    #ffb400;
+
+      /* components — snackbar */
+      --color-component-snackbar-fill: #2c2c2c; /* bg-surface-6 */
+
+      /* components — stepper */
+      --color-component-stepper-connector: #757575; /* grey-600 */
+
+      /* components — app bar */
+      --color-component-appbar-default-fill: #272727; /* bg-surface-4 */
+
+      /* components — chip */
+      --color-component-chip-default-enabled-border: #616161; /* grey-700 */
+      --color-component-chip-default-close-fill:     #ffffff;
+      --color-component-chip-default-hover-fill:     #ffffff1f;
+      --color-component-chip-default-focus-fill:     #ffffff33;
+
+      /* components — backdrop */
+      --color-component-backdrop-fill: #00000080;
+
+      /* components — alert */
+      --color-component-alert-error-text:   #f4c7c7;
+      --color-component-alert-error-bg:     #160b0b;
+      --color-component-alert-warning-bg:   #191207;
+      --color-component-alert-warning-text: #ffe2b7;
+      --color-component-alert-info-text:    #b8e7fb;
+      --color-component-alert-info-bg:      #071318;
+      --color-component-alert-success-text: #cce8cd;
+      --color-component-alert-success-bg:   #0c130d;
+
+      /* components — breadcrumbs */
+      --color-component-breadcrumbs-collapse-fill: #757575; /* grey-600 */
+
+      /* components — tooltip */
+      --color-component-tooltip-fill: #616161e5;
+
+      /* elevation color */
+      --color-elevation-outlined-border: #ffffff1f; /* dark border-divider */
+
+      /* native */
+      --color-native-scrollbar-bg: #616161; /* grey-700 */
+    }
+  }
+}

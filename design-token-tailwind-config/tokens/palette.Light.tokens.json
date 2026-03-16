@@ -1,0 +1,678 @@
+{
+  "text": {
+    "color-text-primary": {
+      "$type": "color",
+      "$value": "#000000de",
+      "$description": "Reflects the text.primary variable from the theme object"
+    },
+    "color-text-secondary": {
+      "$type": "color",
+      "$value": "#00000099",
+      "$description": "Reflects the text.secondary variable from the theme object"
+    },
+    "color-text-disabled": {
+      "$type": "color",
+      "$value": "#00000061",
+      "$description": "Reflects the text.disabled variable from the theme object"
+    },
+    "color-text-hover": {
+      "$type": "color",
+      "$value": "#0000000a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-text-selected": {
+      "$type": "color",
+      "$value": "#00000014",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-text-focus": {
+      "$type": "color",
+      "$value": "#0000001f",
+      "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+    },
+    "color-text-focusVisible": {
+      "$type": "color",
+      "$value": "#0000004d",
+      "$description": "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token."
+    }
+  },
+  "primary": {
+    "color-primary-main": {
+      "$type": "color",
+      "$value": "{blue.color-blue-700}",
+      "$description": "Reflects the primary.main variable from the theme object"
+    },
+    "color-primary-dark": {
+      "$type": "color",
+      "$value": "{blue.color-blue-600}",
+      "$description": "Used for hover states. Reflects the primary.dark variable from the theme object"
+    },
+    "color-primary-light": {
+      "$type": "color",
+      "$value": "{blue.color-blue-400}",
+      "$description": "Reflects the primary.light variable from the theme object"
+    },
+    "color-primary-contrast": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color"
+    },
+    "color-primary-hover": {
+      "$type": "color",
+      "$value": "#026ea10a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-primary-selected": {
+      "$type": "color",
+      "$value": "#026ea114",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-primary-focus": {
+      "$type": "color",
+      "$value": "#026ea11f",
+      "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+    },
+    "color-primary-focusVisible": {
+      "$type": "color",
+      "$value": "#026ea14d"
+    },
+    "color-primary-outlinedBorder": {
+      "$type": "color",
+      "$value": "#026ea180",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "secondary": {
+    "color-secondary-main": {
+      "$type": "color",
+      "$value": "{purple.color-purple-500}"
+    },
+    "color-secondary-dark": {
+      "$type": "color",
+      "$value": "{purple.color-purple-700}"
+    },
+    "color-secondary-light": {
+      "$type": "color",
+      "$value": "{purple.color-purple-300}"
+    },
+    "color-secondary-contrast": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "color-secondary-hover": {
+      "$type": "color",
+      "$value": "#9c27b00a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-secondary-selected": {
+      "$type": "color",
+      "$value": "#9c27b014",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-secondary-focus": {
+      "$type": "color",
+      "$value": "#9c27b01f",
+      "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+    },
+    "color-secondary-focusVisible": {
+      "$type": "color",
+      "$value": "#9c27b04d"
+    },
+    "color-secondary-outlinedBorder": {
+      "$type": "color",
+      "$value": "#9c27b080",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "action": {
+    "color-action-active": {
+      "$type": "color",
+      "$value": "#0000008f"
+    },
+    "color-action-hover": {
+      "$type": "color",
+      "$value": "#0000000a",
+      "$description": "Reflects the action.hover variable from the theme object"
+    },
+    "color-action-selected": {
+      "$type": "color",
+      "$value": "#00000014",
+      "$description": "Reflects the action.selected variable from the theme object"
+    },
+    "color-action-focus": {
+      "$type": "color",
+      "$value": "#0000001f",
+      "$description": "Reflects the action.focus variable from the theme object"
+    },
+    "color-action-disabled": {
+      "$type": "color",
+      "$value": "#00000061",
+      "$description": "Reflects the action.disabled variable from the theme object"
+    },
+    "color-action-disabledBackground": {
+      "$type": "color",
+      "$value": "#0000001f",
+      "$description": "Reflects the action.disabledBackground variable from the theme object"
+    }
+  },
+  "error": {
+    "color-error-main": {
+      "$type": "color",
+      "$value": "{red.color-red-700}"
+    },
+    "color-error-dark": {
+      "$type": "color",
+      "$value": "{red.color-red-800}"
+    },
+    "color-error-light": {
+      "$type": "color",
+      "$value": "{red.color-red-400}"
+    },
+    "color-error-contrast": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "color-error-hover": {
+      "$type": "color",
+      "$value": "#d32f2f0a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-error-selected": {
+      "$type": "color",
+      "$value": "#d32f2f14",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-error-focusVisible": {
+      "$type": "color",
+      "$value": "#d32f2f4d"
+    },
+    "color-error-outlinedBorder": {
+      "$type": "color",
+      "$value": "#d32f2f80",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "warning": {
+    "color-warning-main": {
+      "$type": "color",
+      "$value": "{amber.color-amber-700}"
+    },
+    "color-warning-dark": {
+      "$type": "color",
+      "$value": "{amber.color-amber-900}"
+    },
+    "color-warning-light": {
+      "$type": "color",
+      "$value": "{amber.color-amber-500}"
+    },
+    "color-warning-contrast": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "color-warning-hover": {
+      "$type": "color",
+      "$value": "#ef6c000a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-warning-selected": {
+      "$type": "color",
+      "$value": "#ef6c0014",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-warning-focusVisible": {
+      "$type": "color",
+      "$value": "#ef6c004d"
+    },
+    "color-warning-outlinedBorder": {
+      "$type": "color",
+      "$value": "#ef6c0080",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "info": {
+    "color-info-main": {
+      "$type": "color",
+      "$value": "{lightBlue.color-lightBlue-700}"
+    },
+    "color-info-dark": {
+      "$type": "color",
+      "$value": "{lightBlue.color-lightBlue-900}"
+    },
+    "color-info-light": {
+      "$type": "color",
+      "$value": "{lightBlue.color-lightBlue-500}"
+    },
+    "color-info-contrast": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "color-info-hover": {
+      "$type": "color",
+      "$value": "#0288d10a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-info-selected": {
+      "$type": "color",
+      "$value": "#0288d114",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-info-focusVisible": {
+      "$type": "color",
+      "$value": "#0288d14d",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-info-outlinedBorder": {
+      "$type": "color",
+      "$value": "#0288d180",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "success": {
+    "color-success-main": {
+      "$type": "color",
+      "$value": "{green.color-green-800}"
+    },
+    "color-success-dark": {
+      "$type": "color",
+      "$value": "{green.color-green-900}"
+    },
+    "color-success-light": {
+      "$type": "color",
+      "$value": "{green.color-green-500}"
+    },
+    "color-success-contrast": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "color-success-hover": {
+      "$type": "color",
+      "$value": "#2e7d320a",
+      "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+    },
+    "color-success-selected": {
+      "$type": "color",
+      "$value": "#2e7d3214",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-success-focusVisible": {
+      "$type": "color",
+      "$value": "#2e7d324d",
+      "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+    },
+    "color-success-outlinedBorder": {
+      "$type": "color",
+      "$value": "#2e7d3280",
+      "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+    }
+  },
+  "common": {
+    "black": {
+      "main": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#0000000a",
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#00000014",
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#0000001f"
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": "#0000004d",
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": "#00000080",
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+      }
+    },
+    "white": {
+      "main": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#ffffff0a",
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#ffffff14",
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#ffffff1f"
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": "#ffffff4d"
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": "#ffffff80",
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+      }
+    }
+  },
+  "background": {
+    "color-bg-body": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.default variable from the theme object"
+    },
+    "color-bg-surface-0": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-1": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-2": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-3": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-4": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-5": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-6": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-7": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-8": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-9": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-10": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-11": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-12": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-13": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-14": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-15": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-16": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-17": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-18": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-19": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-20": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-21": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-22": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-23": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    },
+    "color-bg-surface-24": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Reflects the background.paper variable from the theme object"
+    }
+  },
+  "color-border-divider": {
+    "$type": "color",
+    "$value": "#0000001f",
+    "$description": "Reflects the divider variable from the theme object"
+  },
+  "components": {
+    "switch": {
+      "color-component-switch-slideTrack-fill": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "color-component-switch-knobFillEnabled": {
+        "$type": "color",
+        "$value": "{grey.color-grey-50}"
+      },
+      "color-component-switch-knowFillDisabled": {
+        "$type": "color",
+        "$value": "{grey.color-grey-100}"
+      }
+    },
+    "avatar": {
+      "color-component-avatar-fill": {
+        "$type": "color",
+        "$value": "{grey.color-grey-400}"
+      }
+    },
+    "input": {
+      "standard": {
+        "color-component-input-standard-enabledBorder": {
+          "$type": "color",
+          "$value": "#0000006b"
+        },
+        "color-component-input-standard-hoverBorder": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "filled": {
+        "color-component-input-filled-enabledFill": {
+          "$type": "color",
+          "$value": "#0000000f"
+        },
+        "color-component-input-filled-hoverFill": {
+          "$type": "color",
+          "$value": "#00000017"
+        }
+      },
+      "outlined": {
+        "color-component-input-outlined-enabledBorder": {
+          "$type": "color",
+          "$value": "#0000003b"
+        },
+        "color-component-input-outlined-hoverBorder": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "rating": {
+      "color-component-rating-enabledBorder": {
+        "$type": "color",
+        "$value": "#0000003b"
+      },
+      "color-component-rating-activeFill": {
+        "$type": "color",
+        "$value": "#ffb400"
+      }
+    },
+    "snackbar": {
+      "color-component-snackbar-fill": {
+        "$type": "color",
+        "$value": "#323232"
+      }
+    },
+    "stepper": {
+      "color-component-stepper-connector": {
+        "$type": "color",
+        "$value": "{grey.color-grey-400}"
+      }
+    },
+    "appBar": {
+      "color-component-appbar-defaultFill": {
+        "$type": "color",
+        "$value": "{grey.color-grey-100}"
+      }
+    },
+    "chip": {
+      "color-component-chip-defaultEnabledBorder": {
+        "$type": "color",
+        "$value": "{grey.color-grey-400}"
+      },
+      "color-component-chip-defaultCloseFill": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "color-component-chip-defaultHoverFill": {
+        "$type": "color",
+        "$value": "#0000001f"
+      },
+      "color-component-chip-defaultFocusFill": {
+        "$type": "color",
+        "$value": "#00000033"
+      }
+    },
+    "backdrop": {
+      "color-component-backdrop-fill": {
+        "$type": "color",
+        "$value": "#00000080"
+      }
+    },
+    "alert": {
+      "error": {
+        "color-component-alert-error-text": {
+          "$type": "color",
+          "$value": "{red.color-red-700}"
+        },
+        "color-component-alert-error-bg": {
+          "$type": "color",
+          "$value": "#fdeded"
+        }
+      },
+      "warning": {
+        "color-component-alert-warning-bg": {
+          "$type": "color",
+          "$value": "#fff4e5"
+        },
+        "color-component-alert-warning-text": {
+          "$type": "color",
+          "$value": "{amber.color-amber-900}"
+        }
+      },
+      "info": {
+        "color-component-alert-info-text": {
+          "$type": "color",
+          "$value": "{blue.color-blue-700}"
+        },
+        "color-component-alert-info-bg": {
+          "$type": "color",
+          "$value": "#e5f6fd"
+        }
+      },
+      "success": {
+        "color-component-alert-success-text": {
+          "$type": "color",
+          "$value": "{green.color-green-800}"
+        },
+        "color-component-alert-success-bg": {
+          "$type": "color",
+          "$value": "#edf7ed"
+        }
+      }
+    },
+    "breadcrumbs": {
+      "color-component-breadcrumbs-collapseFill": {
+        "$type": "color",
+        "$value": "{grey.color-grey-100}"
+      }
+    },
+    "tooltip": {
+      "color-component-tooltip-fill": {
+        "$type": "color",
+        "$value": "#616161e5"
+      }
+    }
+  },
+  "elevation": {
+    "color-elevation-outlinedBorder": {
+      "$type": "color",
+      "$value": "#e0e0e0"
+    }
+  },
+  "_native": {
+    "color-native-scrollbar-bg": {
+      "$type": "color",
+      "$value": "{grey.color-grey-200}"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "breakpoints": {
+    "breakpoint-xs": {
+      "$type": "grid",
+      "$description": "Max width 444px",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "8px",
+          "count": 12,
+          "offset": "8px"
+        }
+      ]
+    },
+    "breakpoint-sm": {
+      "$type": "grid",
+      "$description": "Max width 600px",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "8px",
+          "count": 12,
+          "offset": "8px"
+        }
+      ]
+    },
+    "breakpoint-md": {
+      "$type": "grid",
+      "$description": "Max width 900px",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "8px",
+          "count": 12,
+          "offset": "8px"
+        }
+      ]
+    },
+    "breakpoint-lg": {
+      "$type": "grid",
+      "$description": "Max width 1200px",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "8px",
+          "count": 12,
+          "offset": "8px"
+        }
+      ]
+    },
+    "breakpoint-xl": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "16px",
+          "count": 12,
+          "offset": "24px"
+        }
+      ]
+    },
+    "breakpoint-xxl": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#0096881f",
+          "gutterSize": "16px",
+          "count": 12,
+          "offset": "16px"
+        }
+      ]
+    }
+  }
+}
