@@ -7,6 +7,14 @@ const config: Config = {
   theme: {
     extend: {
       // ========================================================
+      // Font families (derived from text.styles.tokens.json)
+      // ========================================================
+      fontFamily: {
+        sans: ['"Roboto"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        mono: ['"Roboto Mono"', 'ui-monospace', 'monospace'],
+      },
+
+      // ========================================================
       // breakpoints.Mode-1.tokens.json
       // ========================================================
       screens: {
@@ -21,19 +29,21 @@ const config: Config = {
       // ========================================================
       // sizing.Mode-1.tokens.json
       // ========================================================
+      // spacing-1 = 4px added for half-step; original scale shifted to 2–13
       spacing: {
-        '1':  '8px',
-        '2':  '16px',
-        '3':  '24px',
-        '4':  '32px',
-        '5':  '40px',
-        '6':  '48px',
-        '7':  '56px',
-        '8':  '64px',
-        '9':  '72px',
-        '10': '80px',
-        '11': '88px',
-        '12': '96px',
+        '1':  '4px',
+        '2':  '8px',
+        '3':  '16px',
+        '4':  '24px',
+        '5':  '32px',
+        '6':  '40px',
+        '7':  '48px',
+        '8':  '56px',
+        '9':  '64px',
+        '10': '72px',
+        '11': '80px',
+        '12': '88px',
+        '13': '96px',
       },
 
       // ========================================================
@@ -83,6 +93,8 @@ const config: Config = {
       // ========================================================
       // text.styles.tokens.json — typography
       // fontSize tuples: [size, { lineHeight, letterSpacing, fontWeight }]
+      // Tailwind v3 does not support textTransform in tuples.
+      // Tokens marked /* uppercase */ require the `uppercase` utility class.
       // ========================================================
       fontSize: {
         // Core scale
@@ -97,7 +109,7 @@ const config: Config = {
         'body-md':   ['0.875rem', { lineHeight: '1.43', letterSpacing: '0.17px', fontWeight: '400' }],
         'subtitle-lg': ['1rem', { lineHeight: '1.75', letterSpacing: '0.15px', fontWeight: '400' }],
         'subtitle-md': ['0.875rem', { lineHeight: '1.57', letterSpacing: '0.1px', fontWeight: '500' }],
-        'label-overline': ['0.75rem', { lineHeight: '2.66', letterSpacing: '1px', fontWeight: '400' }],
+        'label-overline': ['0.75rem', { lineHeight: '2.66', letterSpacing: '1px', fontWeight: '400' }], /* uppercase */
         'label-caption':  ['0.75rem', { lineHeight: '1.66', letterSpacing: '0.4px', fontWeight: '400' }],
         // Component tokens
         'alert-title':   ['0.875rem', { lineHeight: '1.5', letterSpacing: '0.15px', fontWeight: '500' }],
@@ -105,9 +117,9 @@ const config: Config = {
         'avatar-initials': ['1.25rem', { lineHeight: '1', letterSpacing: '0.14px', fontWeight: '400' }],
         'badge-label':   ['0.75rem', { lineHeight: '1.667', letterSpacing: '0.14px', fontWeight: '500' }],
         'bottom-nav-active': ['0.875rem', { lineHeight: '1.66', letterSpacing: '0.4px', fontWeight: '400' }],
-        'button-lg':     ['0.9375rem', { lineHeight: '1.6', letterSpacing: '0.46px', fontWeight: '500' }],
-        'button-md':     ['0.875rem', { lineHeight: '1.429', letterSpacing: '0.4px', fontWeight: '500' }],
-        'button-sm':     ['0.8125rem', { lineHeight: '1.231', letterSpacing: '0.46px', fontWeight: '500' }],
+        'button-lg':     ['0.9375rem', { lineHeight: '1.6', letterSpacing: '0.46px', fontWeight: '500' }], /* uppercase */
+        'button-md':     ['0.875rem', { lineHeight: '1.429', letterSpacing: '0.4px', fontWeight: '500' }], /* uppercase */
+        'button-sm':     ['0.8125rem', { lineHeight: '1.231', letterSpacing: '0.46px', fontWeight: '500' }], /* uppercase */
         'chip-label':    ['0.8125rem', { lineHeight: '1.385', letterSpacing: '0.16px', fontWeight: '400' }],
         'date-picker-month': ['1rem', { lineHeight: '1.5', letterSpacing: '0.15px', fontWeight: '500' }],
         'input-label':   ['0.75rem', { lineHeight: '1', letterSpacing: '0.15px', fontWeight: '600' }],
@@ -118,7 +130,7 @@ const config: Config = {
         'menu-item-dense':   ['0.875rem', { lineHeight: '1.714', letterSpacing: '0.17px', fontWeight: '400' }],
         'table-header':  ['0.875rem', { lineHeight: '1.714', letterSpacing: '0.17px', fontWeight: '700' }],
         'tooltip-label': ['0.625rem', { lineHeight: '1.4', letterSpacing: '0px', fontWeight: '500' }],
-        'data-grid-aggregation-header': ['0.75rem', { lineHeight: '1', letterSpacing: '0.15px', fontWeight: '500' }],
+        'data-grid-aggregation-header': ['0.75rem', { lineHeight: '1', letterSpacing: '0.15px', fontWeight: '500' }], /* uppercase */
         // TODO: internal library token — include only if needed for consumer projects
         'library-heading': ['4rem', { lineHeight: '1.167', letterSpacing: '-1.5px', fontWeight: '500' }],
       },

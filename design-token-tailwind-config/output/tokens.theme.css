@@ -13,6 +13,13 @@
   --text-*: initial;
   --tracking-*: initial;
   --font-weight-*: initial;
+  --font-*: initial;
+
+  /* ==========================================================
+     Font families (derived from text.styles.tokens.json)
+     ========================================================== */
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
 
   /* ==========================================================
      breakpoints.Mode-1.tokens.json
@@ -26,19 +33,21 @@
 
   /* ==========================================================
      sizing.Mode-1.tokens.json
+     (spacing-1 = 4px added for half-step; original scale shifted to 2–13)
      ========================================================== */
-  --spacing-1:  0.5rem;   /* 8px */
-  --spacing-2:  1rem;     /* 16px */
-  --spacing-3:  1.5rem;   /* 24px */
-  --spacing-4:  2rem;     /* 32px */
-  --spacing-5:  2.5rem;   /* 40px */
-  --spacing-6:  3rem;     /* 48px */
-  --spacing-7:  3.5rem;   /* 56px */
-  --spacing-8:  4rem;     /* 64px */
-  --spacing-9:  4.5rem;   /* 72px */
-  --spacing-10: 5rem;     /* 80px */
-  --spacing-11: 5.5rem;   /* 88px */
-  --spacing-12: 6rem;     /* 96px */
+  --spacing-1:  0.25rem;  /* 4px */
+  --spacing-2:  0.5rem;   /* 8px */
+  --spacing-3:  1rem;     /* 16px */
+  --spacing-4:  1.5rem;   /* 24px */
+  --spacing-5:  2rem;     /* 32px */
+  --spacing-6:  2.5rem;   /* 40px */
+  --spacing-7:  3rem;     /* 48px */
+  --spacing-8:  3.5rem;   /* 56px */
+  --spacing-9:  4rem;     /* 64px */
+  --spacing-10: 4.5rem;   /* 72px */
+  --spacing-11: 5rem;     /* 80px */
+  --spacing-12: 5.5rem;   /* 88px */
+  --spacing-13: 6rem;     /* 96px */
 
   /* ==========================================================
      shape.Mode-1.tokens.json
@@ -583,6 +592,7 @@
      --text-*--line-height : line-height (% → decimal; px → unitless ratio)
      --tracking-*       : letter-spacing (keep px)
      --font-weight-*    : font-weight
+     --text-transform-* : text-transform (only emitted for non-"none" values)
      ========================================================== */
 
   /* Core scale (inside "typography" wrapper) */
@@ -645,6 +655,7 @@
   --text-label-overline--line-height: 2.66; /* 266% */
   --tracking-label-overline: 1px;
   --font-weight-label-overline: 400;
+  --text-transform-label-overline: uppercase;
 
   --text-label-caption: 0.75rem;    /* 12px */
   --text-label-caption--line-height: 1.66;  /* 166% */
@@ -681,16 +692,19 @@
   --text-button-lg--line-height: 1.6; /* 24px / 15px */
   --tracking-button-lg: 0.46px;
   --font-weight-button-lg: 500;
+  --text-transform-button-lg: uppercase;
 
   --text-button-md: 0.875rem;       /* 14px */
   --text-button-md--line-height: 1.429; /* 20px / 14px */
   --tracking-button-md: 0.4px;
   --font-weight-button-md: 500;
+  --text-transform-button-md: uppercase;
 
   --text-button-sm: 0.8125rem;      /* 13px */
   --text-button-sm--line-height: 1.231; /* 16px / 13px */
   --tracking-button-sm: 0.46px;
   --font-weight-button-sm: 500;
+  --text-transform-button-sm: uppercase;
 
   --text-chip-label: 0.8125rem;     /* 13px */
   --text-chip-label--line-height: 1.385; /* 18px / 13px */
@@ -746,6 +760,7 @@
   --text-data-grid-aggregation-header--line-height: 1; /* 12px / 12px */
   --tracking-data-grid-aggregation-header: 0.15px;
   --font-weight-data-grid-aggregation-header: 500;
+  --text-transform-data-grid-aggregation-header: uppercase;
 
   /* TODO: text-library-heading is an internal library token (Roboto Mono, 64px).
      Include only if needed for consumer projects. */
